@@ -1,0 +1,53 @@
+1. Título: Conjuto de Datos Indios Pima.
+Enlace de descarga: https://archive.ics.uci.edu/ml/datasets/Pima+Indians+Diabetes
+
+2. Fuentes:
+   (a) Dueños originales: National Institute of Diabetes and Digestive and
+                        Kidney Diseases
+   (b) Donante de la Base de datos: Vincent Sigillito (vgs@aplcen.apl.jhu.edu)
+                          Research Center, RMI Group Leader
+                          Applied Physics Laboratory
+                          The Johns Hopkins University
+                          Johns Hopkins Road
+                          Laurel, MD 20707
+                          (301) 953-6231
+
+3. Información Relevante:
+Varias restricciones se pusieron en la selección de estas instancias de una base de datos más grande. En particular, todos los pacientes aquí son mujeres de menos de 21 años del pueblo indio Pima.
+
+4. Número de instancias: 768
+
+5. Número de atributos por instancia: 8 + clase
+
+6. Para cada atributo: (todos los valores númericos)
+   1. Número de veces embarazadas.
+   2. Concentración de glucosa en plasma a 2 horas en una prueba oral de tolerancia a la glucosa.
+   3. Presión arterial diastólica (mm Hg): es la presión máxima que se alcanza en el sístole.
+   4. Espesor del pliegue cutáneo del tríceps (mm)
+   5. 2 horas de insulina en suero (mu U/ml)
+   6. Índice masa corporal (peso en kg/(altura en mts)^2)
+   7. Función pedigree de la diabetes
+   8. Edad (año)
+   9. Clase del atributo (0 or 1), donde:
+      Cada instancia tiene un valor de clase que indica si el paciente sufrio una aparición de diabetes dentro de los 5 años del momento en que se tomaron las mediciones:
+        [0]: No
+        [1]: Si
+
+
+7. Distribución de Clase: (el valor de la clase '1' se interpreta como 'positivo para diabetes'
+
+   Valor de clase  Numero de instancias
+   0                500
+   1                268
+
+8. Breve análisis estadístico:
+
+    Número atributo:   Promedio:   Desviación Estandar:
+    1.                     3.8     3.4
+    2.                   120.9    32.0
+    3.                    69.1    19.4
+    4.                    20.5    16.0
+    5.                    79.8   115.2
+    6.                    32.0     7.9
+    7.                     0.5     0.3
+    8.                    33.2    11.8
